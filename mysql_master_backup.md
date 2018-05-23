@@ -129,7 +129,7 @@ Master_SSL_Verify_Server_Cert: No
 
 (2)如果将主服务器的属性配错了需要stop slave，然后设置好之后start slave
 
-#### 中信银行配置如下：
+#### dba要求配置如下：
 ```
 max_connections=<具体数值由系统需求而定>
 Port=3309
